@@ -1,0 +1,176 @@
+{
+  "id": "prop_dead_tree",
+  "label": "dead_tree",
+  "role": "prop",
+  "weapon": "none",
+  "name": "dead_tree",
+  "cellWidth": 128,
+  "cellHeight": 128,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 1,
+      "loop": true
+    },
+    "attack": null
+  },
+  "anchor": {
+    "x": 64,
+    "y": 92
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 1,
+    "line": "terrain",
+    "kind": "dead_tree",
+    "variant": 0,
+    "bulk": 1,
+    "legLen": 1,
+    "tall": 1,
+    "armLen": 1,
+    "edge": 1.5,
+    "size": 1,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "primary": "#3e7a3a",
+      "secondary": "#5c9a4e",
+      "tertiary": "#2e5a2a",
+      "metal": "#6a6e76",
+      "leather": "#5e4430",
+      "accent": "#d8a94a",
+      "glass": "#ffe28a",
+      "skin": "#e4dcc4",
+      "hair": "#3b2a26",
+      "outline": "#162012"
+    },
+    "number": "1",
+    "name": "dead_tree"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 64,
+    "y": 66.9
+  },
+  "idleBox": {
+    "w": 40,
+    "h": 63
+  },
+  "bodyBoxS": {
+    "w": 30,
+    "h": 40
+  },
+  "attackReach": 0,
+  "tightBox": {
+    "w": 44,
+    "h": 65
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 648,
+      "vMedian": 0.369,
+      "vAbove08": 0,
+      "satMedian": 0.489,
+      "bboxW": 40,
+      "bboxH": 58
+    },
+    "idleAspect": [
+      {
+        "w": 40,
+        "h": 58,
+        "r": 1.45
+      },
+      {
+        "w": 29,
+        "h": 60,
+        "r": 2.07
+      },
+      {
+        "w": 16,
+        "h": 63,
+        "r": 3.94
+      },
+      {
+        "w": 32,
+        "h": 60,
+        "r": 1.88
+      },
+      {
+        "w": 40,
+        "h": 56,
+        "r": 1.4
+      },
+      {
+        "w": 28,
+        "h": 55,
+        "r": 1.96
+      },
+      {
+        "w": 16,
+        "h": 57,
+        "r": 3.56
+      },
+      {
+        "w": 31,
+        "h": 56,
+        "r": 1.81
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 68.2,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

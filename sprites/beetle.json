@@ -1,0 +1,194 @@
+{
+  "id": "beetle",
+  "label": "Thornback Beetle",
+  "role": "enemy",
+  "weapon": "none",
+  "name": "Thornback Beetle",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "walk5",
+    "walk6",
+    "walk7",
+    "attack0",
+    "attack1",
+    "attack2",
+    "attack3"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 8,
+      "loop": true
+    },
+    "attack": {
+      "from": 9,
+      "count": 4,
+      "loop": false
+    }
+  },
+  "anchor": {
+    "x": 32,
+    "y": 36
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 81,
+    "line": "bug",
+    "species": "brute",
+    "carapace": "plated",
+    "head": "pincers",
+    "abdomen": "segmented",
+    "markings": "bands",
+    "legs": "barbed",
+    "shade": 2,
+    "variant": 4,
+    "bulk": 0.93,
+    "legLen": 0.89,
+    "tall": 0.82,
+    "armLen": 0.88,
+    "edge": 1.7,
+    "size": 0.83,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "glass": "#b4fff0",
+      "primary": "#5a3a2a",
+      "secondary": "#8a5a3a",
+      "tertiary": "#3a2a1a",
+      "accent": "#c89a4a",
+      "metal": "#6a4a3a",
+      "outline": "#1a1008"
+    },
+    "number": "650",
+    "name": "Thornback Beetle"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32,
+    "y": 33.9
+  },
+  "idleBox": {
+    "w": 37,
+    "h": 27
+  },
+  "bodyBoxS": {
+    "w": 34,
+    "h": 24
+  },
+  "attackReach": 22.8,
+  "tightBox": {
+    "w": 48,
+    "h": 33
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 552,
+      "vMedian": 0.541,
+      "vAbove08": 0.034,
+      "satMedian": 0.58,
+      "bboxW": 34,
+      "bboxH": 24
+    },
+    "idleAspect": [
+      {
+        "w": 34,
+        "h": 24,
+        "r": 1.42
+      },
+      {
+        "w": 37,
+        "h": 27,
+        "r": 1.37
+      },
+      {
+        "w": 32,
+        "h": 26,
+        "r": 1.23
+      },
+      {
+        "w": 35,
+        "h": 26,
+        "r": 1.35
+      },
+      {
+        "w": 36,
+        "h": 23,
+        "r": 1.57
+      },
+      {
+        "w": 35,
+        "h": 26,
+        "r": 1.35
+      },
+      {
+        "w": 32,
+        "h": 26,
+        "r": 1.23
+      },
+      {
+        "w": 37,
+        "h": 27,
+        "r": 1.37
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 19.8,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

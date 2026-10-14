@@ -1,0 +1,302 @@
+{
+  "id": "skeleton",
+  "label": "Skeleton Warrior",
+  "role": "enemy",
+  "weapon": "sword",
+  "name": "Skeleton Warrior",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "walk5",
+    "walk6",
+    "walk7",
+    "attack0",
+    "attack1",
+    "attack2",
+    "attack3"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 8,
+      "loop": true
+    },
+    "attack": {
+      "from": 9,
+      "count": 4,
+      "loop": false
+    }
+  },
+  "anchor": {
+    "x": 32,
+    "y": 48
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 31,
+    "line": "human",
+    "role": "skeleton",
+    "era": "fantasy",
+    "style": "blend",
+    "head": "bare",
+    "shoulders": "none",
+    "weaponR": "sword",
+    "weaponL": "none",
+    "extra": "none",
+    "bulk": 1.17,
+    "legLen": 1.21,
+    "tall": 1.17,
+    "armLen": 0.82,
+    "edge": 1.5,
+    "size": 0.83,
+    "palette": null,
+    "colors": {
+      "human": true,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "glass": "#b4fff0",
+      "skin": "#e4dcc4",
+      "hair": "#e4dcc4",
+      "primary": "#d8d0b8",
+      "secondary": "#b8b09a",
+      "tertiary": "#5a5048",
+      "metal": "#9a9ea6",
+      "leather": "#a89a80",
+      "accent": "#9fe39a",
+      "outline": "#2a2820"
+    },
+    "number": "938",
+    "name": "Skeleton Warrior"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32,
+    "y": 33.9
+  },
+  "idleBox": {
+    "w": 25,
+    "h": 38
+  },
+  "bodyBoxS": {
+    "w": 22,
+    "h": 35
+  },
+  "attackReach": 26.9,
+  "tightBox": {
+    "w": 40,
+    "h": 52
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 464,
+      "vMedian": 0.651,
+      "vAbove08": 0.142,
+      "satMedian": 0.148,
+      "bboxW": 22,
+      "bboxH": 35
+    },
+    "idleAspect": [
+      {
+        "w": 22,
+        "h": 35,
+        "r": 1.59
+      },
+      {
+        "w": 18,
+        "h": 37,
+        "r": 2.06
+      },
+      {
+        "w": 17,
+        "h": 38,
+        "r": 2.24
+      },
+      {
+        "w": 25,
+        "h": 37,
+        "r": 1.48
+      },
+      {
+        "w": 22,
+        "h": 35,
+        "r": 1.59
+      },
+      {
+        "w": 18,
+        "h": 36,
+        "r": 2
+      },
+      {
+        "w": 17,
+        "h": 37,
+        "r": 2.18
+      },
+      {
+        "w": 25,
+        "h": 37,
+        "r": 1.48
+      }
+    ],
+    "barrelErr": [
+      0.5,
+      23.9,
+      53.5,
+      96.2,
+      178.6,
+      -96.7,
+      -53.1,
+      -23.1
+    ],
+    "bodyAspect": [
+      {
+        "w": 22,
+        "h": 35,
+        "r": 1.59
+      },
+      {
+        "w": 18,
+        "h": 37,
+        "r": 2.06
+      },
+      {
+        "w": 11,
+        "h": 38,
+        "r": 3.45
+      },
+      {
+        "w": 20,
+        "h": 37,
+        "r": 1.85
+      },
+      {
+        "w": 22,
+        "h": 35,
+        "r": 1.59
+      },
+      {
+        "w": 18,
+        "h": 36,
+        "r": 2
+      },
+      {
+        "w": 11,
+        "h": 37,
+        "r": 3.36
+      },
+      {
+        "w": 20,
+        "h": 37,
+        "r": 1.85
+      }
+    ],
+    "legs": {
+      "S": {
+        "strideL": 8.5,
+        "strideR": 8.5,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          28,
+          16,
+          14,
+          7,
+          13,
+          22,
+          35,
+          25
+        ],
+        "visR": [
+          8,
+          21,
+          33,
+          24,
+          23,
+          10,
+          11,
+          1
+        ]
+      },
+      "N": {
+        "strideL": 6,
+        "strideR": 6,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          27,
+          31,
+          38,
+          39,
+          29,
+          20,
+          10,
+          17
+        ],
+        "visR": [
+          29,
+          19,
+          8,
+          15,
+          27,
+          31,
+          38,
+          39
+        ]
+      }
+    }
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 42.4,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

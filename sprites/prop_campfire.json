@@ -1,0 +1,176 @@
+{
+  "id": "prop_campfire",
+  "label": "campfire",
+  "role": "prop",
+  "weapon": "none",
+  "name": "campfire",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 1,
+      "loop": true
+    },
+    "attack": null
+  },
+  "anchor": {
+    "x": 32,
+    "y": 35
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 1,
+    "line": "terrain",
+    "kind": "campfire",
+    "variant": 0,
+    "bulk": 1,
+    "legLen": 1,
+    "tall": 1,
+    "armLen": 1,
+    "edge": 1.5,
+    "size": 1,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "primary": "#8a6a3a",
+      "secondary": "#5a3a28",
+      "tertiary": "#6a4a2e",
+      "metal": "#6a6a6a",
+      "leather": "#6a4a2e",
+      "accent": "#ff9a30",
+      "glass": "#ffe28a",
+      "skin": "#e4dcc4",
+      "hair": "#3b2a26",
+      "outline": "#1a1410"
+    },
+    "number": "1",
+    "name": "campfire"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32.1,
+    "y": 31.6
+  },
+  "idleBox": {
+    "w": 38,
+    "h": 30
+  },
+  "bodyBoxS": {
+    "w": 38,
+    "h": 29
+  },
+  "attackReach": 0,
+  "tightBox": {
+    "w": 41,
+    "h": 32
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 644,
+      "vMedian": 0.533,
+      "vAbove08": 0.303,
+      "satMedian": 0.385,
+      "bboxW": 38,
+      "bboxH": 29
+    },
+    "idleAspect": [
+      {
+        "w": 38,
+        "h": 29,
+        "r": 1.31
+      },
+      {
+        "w": 36,
+        "h": 29,
+        "r": 1.24
+      },
+      {
+        "w": 34,
+        "h": 29,
+        "r": 1.17
+      },
+      {
+        "w": 36,
+        "h": 29,
+        "r": 1.24
+      },
+      {
+        "w": 37,
+        "h": 29,
+        "r": 1.28
+      },
+      {
+        "w": 36,
+        "h": 29,
+        "r": 1.24
+      },
+      {
+        "w": 34,
+        "h": 30,
+        "r": 1.13
+      },
+      {
+        "w": 36,
+        "h": 29,
+        "r": 1.24
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 27.9,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

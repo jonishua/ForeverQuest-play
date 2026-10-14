@@ -1,0 +1,302 @@
+{
+  "id": "kess",
+  "label": "Kess Varrow",
+  "role": "rogue",
+  "weapon": "twin daggers",
+  "name": "Kess Varrow",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "walk5",
+    "walk6",
+    "walk7",
+    "attack0",
+    "attack1",
+    "attack2",
+    "attack3"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 8,
+      "loop": true
+    },
+    "attack": {
+      "from": 9,
+      "count": 4,
+      "loop": false
+    }
+  },
+  "anchor": {
+    "x": 32,
+    "y": 49
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 21,
+    "line": "human",
+    "role": "rogue",
+    "era": "fantasy",
+    "style": "blend",
+    "head": "hood",
+    "shoulders": "none",
+    "weaponR": "dagger",
+    "weaponL": "dagger",
+    "extra": "cape",
+    "bulk": 1.04,
+    "legLen": 1,
+    "tall": 0.94,
+    "armLen": 0.97,
+    "edge": 1.6,
+    "size": 0.88,
+    "palette": null,
+    "colors": {
+      "human": true,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "glass": "#b4fff0",
+      "primary": "#7a2430",
+      "secondary": "#5a5658",
+      "tertiary": "#8a3038",
+      "metal": "#808490",
+      "leather": "#4a3028",
+      "accent": "#e07a6a",
+      "skin": "#c89070",
+      "hair": "#1a1418",
+      "outline": "#1a1016"
+    },
+    "number": "411",
+    "name": "Kess Varrow"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32,
+    "y": 33.9
+  },
+  "idleBox": {
+    "w": 28,
+    "h": 41
+  },
+  "bodyBoxS": {
+    "w": 27,
+    "h": 38
+  },
+  "attackReach": 27.4,
+  "tightBox": {
+    "w": 48,
+    "h": 55
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 585,
+      "vMedian": 0.392,
+      "vAbove08": 0.009,
+      "satMedian": 0.44,
+      "bboxW": 27,
+      "bboxH": 38
+    },
+    "idleAspect": [
+      {
+        "w": 27,
+        "h": 38,
+        "r": 1.41
+      },
+      {
+        "w": 27,
+        "h": 39,
+        "r": 1.44
+      },
+      {
+        "w": 19,
+        "h": 40,
+        "r": 2.11
+      },
+      {
+        "w": 28,
+        "h": 41,
+        "r": 1.46
+      },
+      {
+        "w": 27,
+        "h": 38,
+        "r": 1.41
+      },
+      {
+        "w": 27,
+        "h": 39,
+        "r": 1.44
+      },
+      {
+        "w": 19,
+        "h": 39,
+        "r": 2.05
+      },
+      {
+        "w": 28,
+        "h": 40,
+        "r": 1.43
+      }
+    ],
+    "barrelErr": [
+      142.4,
+      135,
+      153.6,
+      166,
+      167.3,
+      174.2,
+      -168.3,
+      -155.6
+    ],
+    "bodyAspect": [
+      {
+        "w": 27,
+        "h": 38,
+        "r": 1.41
+      },
+      {
+        "w": 22,
+        "h": 39,
+        "r": 1.77
+      },
+      {
+        "w": 19,
+        "h": 40,
+        "r": 2.11
+      },
+      {
+        "w": 28,
+        "h": 41,
+        "r": 1.46
+      },
+      {
+        "w": 27,
+        "h": 38,
+        "r": 1.41
+      },
+      {
+        "w": 22,
+        "h": 39,
+        "r": 1.77
+      },
+      {
+        "w": 19,
+        "h": 39,
+        "r": 2.05
+      },
+      {
+        "w": 28,
+        "h": 40,
+        "r": 1.43
+      }
+    ],
+    "legs": {
+      "S": {
+        "strideL": 9,
+        "strideR": 9,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          39,
+          23,
+          21,
+          9,
+          12,
+          38,
+          52,
+          47
+        ],
+        "visR": [
+          9,
+          36,
+          52,
+          45,
+          36,
+          18,
+          17,
+          2
+        ]
+      },
+      "N": {
+        "strideL": 3,
+        "strideR": 1.5,
+        "visFramesL": 5,
+        "visFramesR": 3,
+        "visL": [
+          1,
+          15,
+          14,
+          12,
+          3,
+          0,
+          0,
+          0
+        ],
+        "visR": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          8,
+          9,
+          7
+        ]
+      }
+    }
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 44.3,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

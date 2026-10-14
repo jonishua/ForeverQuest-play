@@ -1,0 +1,176 @@
+{
+  "id": "prop_rock",
+  "label": "rock",
+  "role": "prop",
+  "weapon": "none",
+  "name": "rock",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 1,
+      "loop": true
+    },
+    "attack": null
+  },
+  "anchor": {
+    "x": 32,
+    "y": 40
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 1,
+    "line": "terrain",
+    "kind": "rock",
+    "variant": 0,
+    "bulk": 1,
+    "legLen": 1,
+    "tall": 1,
+    "armLen": 1,
+    "edge": 1.5,
+    "size": 1,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "primary": "#8a3a30",
+      "secondary": "#9a9ea6",
+      "tertiary": "#6a6e76",
+      "metal": "#7a7e86",
+      "leather": "#8a5a34",
+      "accent": "#d8a94a",
+      "glass": "#ffe28a",
+      "skin": "#e4dcc4",
+      "hair": "#3b2a26",
+      "outline": "#1c1c22"
+    },
+    "number": "1",
+    "name": "rock"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32,
+    "y": 33.4
+  },
+  "idleBox": {
+    "w": 30,
+    "h": 29
+  },
+  "bodyBoxS": {
+    "w": 30,
+    "h": 23
+  },
+  "attackReach": 0,
+  "tightBox": {
+    "w": 32,
+    "h": 31
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 593,
+      "vMedian": 0.62,
+      "vAbove08": 0,
+      "satMedian": 0.063,
+      "bboxW": 30,
+      "bboxH": 23
+    },
+    "idleAspect": [
+      {
+        "w": 30,
+        "h": 23,
+        "r": 1.3
+      },
+      {
+        "w": 28,
+        "h": 29,
+        "r": 1.04
+      },
+      {
+        "w": 24,
+        "h": 27,
+        "r": 1.13
+      },
+      {
+        "w": 28,
+        "h": 26,
+        "r": 1.08
+      },
+      {
+        "w": 30,
+        "h": 20,
+        "r": 1.5
+      },
+      {
+        "w": 28,
+        "h": 26,
+        "r": 1.08
+      },
+      {
+        "w": 24,
+        "h": 24,
+        "r": 1
+      },
+      {
+        "w": 28,
+        "h": 26,
+        "r": 1.08
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 27.5,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

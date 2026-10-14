@@ -1,0 +1,194 @@
+{
+  "id": "spider",
+  "label": "Barrow Spider",
+  "role": "enemy",
+  "weapon": "none",
+  "name": "Barrow Spider",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "walk5",
+    "walk6",
+    "walk7",
+    "attack0",
+    "attack1",
+    "attack2",
+    "attack3"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 8,
+      "loop": true
+    },
+    "attack": {
+      "from": 9,
+      "count": 4,
+      "loop": false
+    }
+  },
+  "anchor": {
+    "x": 32,
+    "y": 36
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 81,
+    "line": "bug",
+    "species": "runner",
+    "carapace": "plated",
+    "head": "pincers",
+    "abdomen": "segmented",
+    "markings": "bands",
+    "legs": "barbed",
+    "shade": 2,
+    "variant": 4,
+    "bulk": 0.93,
+    "legLen": 0.89,
+    "tall": 0.82,
+    "armLen": 0.88,
+    "edge": 1.7,
+    "size": 1.87,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "glass": "#b4fff0",
+      "primary": "#2a2a34",
+      "secondary": "#4a4458",
+      "tertiary": "#1a1a22",
+      "accent": "#9fe39a",
+      "metal": "#3a3a44",
+      "outline": "#0c0c12"
+    },
+    "number": "650",
+    "name": "Barrow Spider"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32,
+    "y": 33.8
+  },
+  "idleBox": {
+    "w": 39,
+    "h": 28
+  },
+  "bodyBoxS": {
+    "w": 30,
+    "h": 28
+  },
+  "attackReach": 23.1,
+  "tightBox": {
+    "w": 46,
+    "h": 34
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 483,
+      "vMedian": 0.384,
+      "vAbove08": 0.135,
+      "satMedian": 0.24,
+      "bboxW": 30,
+      "bboxH": 28
+    },
+    "idleAspect": [
+      {
+        "w": 30,
+        "h": 28,
+        "r": 1.07
+      },
+      {
+        "w": 33,
+        "h": 26,
+        "r": 1.27
+      },
+      {
+        "w": 39,
+        "h": 23,
+        "r": 1.7
+      },
+      {
+        "w": 33,
+        "h": 24,
+        "r": 1.38
+      },
+      {
+        "w": 30,
+        "h": 27,
+        "r": 1.11
+      },
+      {
+        "w": 33,
+        "h": 24,
+        "r": 1.38
+      },
+      {
+        "w": 39,
+        "h": 23,
+        "r": 1.7
+      },
+      {
+        "w": 33,
+        "h": 26,
+        "r": 1.27
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 16.1,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "prop_wall",
+  "label": "wall",
+  "role": "prop",
+  "weapon": "none",
+  "name": "wall",
+  "cellWidth": 128,
+  "cellHeight": 128,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 1,
+      "loop": true
+    },
+    "attack": null
+  },
+  "anchor": {
+    "x": 64,
+    "y": 89
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 1,
+    "line": "terrain",
+    "kind": "wall",
+    "variant": 0,
+    "bulk": 1,
+    "legLen": 1,
+    "tall": 1,
+    "armLen": 1,
+    "edge": 1.5,
+    "size": 1,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "primary": "#4a5260",
+      "secondary": "#6a7484",
+      "tertiary": "#3a4250",
+      "metal": "#4e5664",
+      "leather": "#4a4030",
+      "accent": "#ff9a30",
+      "glass": "#ffe28a",
+      "skin": "#e4dcc4",
+      "hair": "#3b2a26",
+      "outline": "#14161c"
+    },
+    "number": "1",
+    "name": "wall"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 63.9,
+    "y": 64
+  },
+  "idleBox": {
+    "w": 94,
+    "h": 108
+  },
+  "bodyBoxS": {
+    "w": 40,
+    "h": 40
+  },
+  "attackReach": 0,
+  "tightBox": {
+    "w": 96,
+    "h": 110
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 6064,
+      "vMedian": 0.518,
+      "vAbove08": 0,
+      "satMedian": 0.22,
+      "bboxW": 66,
+      "bboxH": 92
+    },
+    "idleAspect": [
+      {
+        "w": 66,
+        "h": 92,
+        "r": 1.39
+      },
+      {
+        "w": 94,
+        "h": 108,
+        "r": 1.15
+      },
+      {
+        "w": 67,
+        "h": 92,
+        "r": 1.37
+      },
+      {
+        "w": 94,
+        "h": 108,
+        "r": 1.15
+      },
+      {
+        "w": 66,
+        "h": 92,
+        "r": 1.39
+      },
+      {
+        "w": 94,
+        "h": 108,
+        "r": 1.15
+      },
+      {
+        "w": 68,
+        "h": 92,
+        "r": 1.35
+      },
+      {
+        "w": 94,
+        "h": 108,
+        "r": 1.15
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 104.9,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

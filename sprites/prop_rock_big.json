@@ -1,0 +1,176 @@
+{
+  "id": "prop_rock_big",
+  "label": "rock_big",
+  "role": "prop",
+  "weapon": "none",
+  "name": "rock_big",
+  "cellWidth": 96,
+  "cellHeight": 96,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 1,
+      "loop": true
+    },
+    "attack": null
+  },
+  "anchor": {
+    "x": 48,
+    "y": 63
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 1,
+    "line": "terrain",
+    "kind": "rock_big",
+    "variant": 0,
+    "bulk": 1,
+    "legLen": 1,
+    "tall": 1,
+    "armLen": 1,
+    "edge": 1.5,
+    "size": 1,
+    "palette": null,
+    "colors": {
+      "human": false,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "primary": "#8a3a30",
+      "secondary": "#9a9ea6",
+      "tertiary": "#6a6e76",
+      "metal": "#7a7e86",
+      "leather": "#8a5a34",
+      "accent": "#d8a94a",
+      "glass": "#ffe28a",
+      "skin": "#e4dcc4",
+      "hair": "#3b2a26",
+      "outline": "#1c1c22"
+    },
+    "number": "1",
+    "name": "rock_big"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 48,
+    "y": 50.3
+  },
+  "idleBox": {
+    "w": 52,
+    "h": 55
+  },
+  "bodyBoxS": {
+    "w": 40,
+    "h": 38
+  },
+  "attackReach": 0,
+  "tightBox": {
+    "w": 54,
+    "h": 57
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 1809,
+      "vMedian": 0.62,
+      "vAbove08": 0,
+      "satMedian": 0.063,
+      "bboxW": 52,
+      "bboxH": 38
+    },
+    "idleAspect": [
+      {
+        "w": 52,
+        "h": 38,
+        "r": 1.37
+      },
+      {
+        "w": 52,
+        "h": 48,
+        "r": 1.08
+      },
+      {
+        "w": 42,
+        "h": 43,
+        "r": 1.02
+      },
+      {
+        "w": 52,
+        "h": 48,
+        "r": 1.08
+      },
+      {
+        "w": 52,
+        "h": 43,
+        "r": 1.21
+      },
+      {
+        "w": 52,
+        "h": 55,
+        "r": 1.06
+      },
+      {
+        "w": 42,
+        "h": 52,
+        "r": 1.24
+      },
+      {
+        "w": 52,
+        "h": 52,
+        "r": 1
+      }
+    ],
+    "barrelErr": null
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 49.3,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

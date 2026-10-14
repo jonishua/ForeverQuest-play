@@ -1,0 +1,302 @@
+{
+  "id": "goblin_boss",
+  "label": "Goblin Camp Boss",
+  "role": "enemy",
+  "weapon": "greatsword",
+  "name": "Goblin Camp Boss",
+  "cellWidth": 96,
+  "cellHeight": 96,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "walk5",
+    "walk6",
+    "walk7",
+    "attack0",
+    "attack1",
+    "attack2",
+    "attack3"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 8,
+      "loop": true
+    },
+    "attack": {
+      "from": 9,
+      "count": 4,
+      "loop": false
+    }
+  },
+  "anchor": {
+    "x": 48,
+    "y": 66
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 61,
+    "line": "human",
+    "role": "berserker",
+    "era": "fantasy",
+    "style": "blend",
+    "head": "horned",
+    "shoulders": "fur",
+    "weaponR": "greatsword",
+    "weaponL": "none",
+    "extra": "none",
+    "bulk": 1.1,
+    "legLen": 1.14,
+    "tall": 1.24,
+    "armLen": 1.13,
+    "edge": 0.9,
+    "size": 0.66,
+    "palette": null,
+    "colors": {
+      "human": true,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "glass": "#b4fff0",
+      "skin": "#8fb04a",
+      "hair": "#2a2438",
+      "primary": "#8a3030",
+      "secondary": "#c8a040",
+      "tertiary": "#5a3a28",
+      "metal": "#9a9ea8",
+      "leather": "#6a4028",
+      "accent": "#ffcf3a",
+      "outline": "#14120c"
+    },
+    "number": "479",
+    "name": "Goblin Camp Boss"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 48.1,
+    "y": 48.6
+  },
+  "idleBox": {
+    "w": 47,
+    "h": 57
+  },
+  "bodyBoxS": {
+    "w": 37,
+    "h": 36
+  },
+  "attackReach": 46.8,
+  "tightBox": {
+    "w": 92,
+    "h": 84
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 906,
+      "vMedian": 0.659,
+      "vAbove08": 0.028,
+      "satMedian": 0.083,
+      "bboxW": 39,
+      "bboxH": 52
+    },
+    "idleAspect": [
+      {
+        "w": 39,
+        "h": 52,
+        "r": 1.33
+      },
+      {
+        "w": 47,
+        "h": 42,
+        "r": 1.12
+      },
+      {
+        "w": 45,
+        "h": 43,
+        "r": 1.05
+      },
+      {
+        "w": 32,
+        "h": 39,
+        "r": 1.22
+      },
+      {
+        "w": 40,
+        "h": 35,
+        "r": 1.14
+      },
+      {
+        "w": 47,
+        "h": 40,
+        "r": 1.18
+      },
+      {
+        "w": 46,
+        "h": 49,
+        "r": 1.07
+      },
+      {
+        "w": 32,
+        "h": 57,
+        "r": 1.78
+      }
+    ],
+    "barrelErr": [
+      156.8,
+      166,
+      -176,
+      -171.8,
+      125.7,
+      130.6,
+      148.5,
+      157.5
+    ],
+    "bodyAspect": [
+      {
+        "w": 37,
+        "h": 37,
+        "r": 1
+      },
+      {
+        "w": 30,
+        "h": 42,
+        "r": 1.4
+      },
+      {
+        "w": 19,
+        "h": 43,
+        "r": 2.26
+      },
+      {
+        "w": 32,
+        "h": 39,
+        "r": 1.22
+      },
+      {
+        "w": 37,
+        "h": 35,
+        "r": 1.06
+      },
+      {
+        "w": 30,
+        "h": 40,
+        "r": 1.33
+      },
+      {
+        "w": 19,
+        "h": 44,
+        "r": 2.32
+      },
+      {
+        "w": 32,
+        "h": 43,
+        "r": 1.34
+      }
+    ],
+    "legs": {
+      "S": {
+        "strideL": 5.5,
+        "strideR": 5.5,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          54,
+          40,
+          33,
+          20,
+          31,
+          51,
+          73,
+          61
+        ],
+        "visR": [
+          9,
+          28,
+          48,
+          40,
+          33,
+          21,
+          16,
+          4
+        ]
+      },
+      "N": {
+        "strideL": 3.5,
+        "strideR": 3.5,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          54,
+          62,
+          67,
+          64,
+          54,
+          44,
+          30,
+          36
+        ],
+        "visR": [
+          54,
+          44,
+          30,
+          36,
+          54,
+          62,
+          67,
+          64
+        ]
+      }
+    }
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 42.2,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}

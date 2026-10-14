@@ -1,0 +1,302 @@
+{
+  "id": "aldous",
+  "label": "Aldous Penhallow",
+  "role": "cleric",
+  "weapon": "mace+shield",
+  "name": "Aldous Penhallow",
+  "cellWidth": 64,
+  "cellHeight": 64,
+  "scale": 1,
+  "rows": [
+    "S",
+    "SE",
+    "E",
+    "NE",
+    "N",
+    "NW",
+    "W",
+    "SW"
+  ],
+  "columns": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "walk4",
+    "walk5",
+    "walk6",
+    "walk7",
+    "attack0",
+    "attack1",
+    "attack2",
+    "attack3"
+  ],
+  "animations": {
+    "idle": {
+      "from": 0,
+      "count": 1
+    },
+    "walk": {
+      "from": 1,
+      "count": 8,
+      "loop": true
+    },
+    "attack": {
+      "from": 9,
+      "count": 4,
+      "loop": false
+    }
+  },
+  "anchor": {
+    "x": 32,
+    "y": 49
+  },
+  "clipped": false,
+  "blueprint": {
+    "v": 2,
+    "seed": 31,
+    "line": "human",
+    "role": "soldier",
+    "era": "fantasy",
+    "style": "blend",
+    "head": "bare",
+    "shoulders": "light",
+    "weaponR": "mace",
+    "weaponL": "shield",
+    "extra": "none",
+    "bulk": 1.17,
+    "legLen": 1.21,
+    "tall": 1.17,
+    "armLen": 0.82,
+    "edge": 1.5,
+    "size": 0.83,
+    "palette": null,
+    "colors": {
+      "human": true,
+      "styles": [
+        "grim",
+        "dark",
+        "real"
+      ],
+      "bg": "#2a2e38",
+      "floor": "#242832",
+      "glass": "#b4fff0",
+      "primary": "#efe6d0",
+      "secondary": "#d8a94a",
+      "tertiary": "#d8a94a",
+      "metal": "#b0b4c0",
+      "leather": "#7a5634",
+      "accent": "#ffe28a",
+      "skin": "#d2a07a",
+      "hair": "#c8c4bc",
+      "outline": "#2a2418"
+    },
+    "number": "938",
+    "name": "Aldous Penhallow"
+  },
+  "anchorMode": "feet; global box centred in the cell",
+  "ringAt": "center",
+  "center": {
+    "x": 32,
+    "y": 34.3
+  },
+  "idleBox": {
+    "w": 41,
+    "h": 46
+  },
+  "bodyBoxS": {
+    "w": 38,
+    "h": 39
+  },
+  "attackReach": 29.5,
+  "tightBox": {
+    "w": 50,
+    "h": 57
+  },
+  "render": {
+    "supersample": 1,
+    "soften": 1,
+    "feather": 0,
+    "swayDeg": 0,
+    "swayPx": 0,
+    "filter": "box, premultiplied alpha",
+    "vfx": false
+  },
+  "cap": null,
+  "marks": null,
+  "paints": null,
+  "pose": null,
+  "edges": null,
+  "gun": null,
+  "carve": null,
+  "stats": {
+    "sIdle": {
+      "opaquePx": 970,
+      "vMedian": 0.753,
+      "vAbove08": 0.409,
+      "satMedian": 0.083,
+      "bboxW": 38,
+      "bboxH": 43
+    },
+    "idleAspect": [
+      {
+        "w": 38,
+        "h": 43,
+        "r": 1.13
+      },
+      {
+        "w": 32,
+        "h": 46,
+        "r": 1.44
+      },
+      {
+        "w": 27,
+        "h": 42,
+        "r": 1.56
+      },
+      {
+        "w": 41,
+        "h": 42,
+        "r": 1.02
+      },
+      {
+        "w": 38,
+        "h": 39,
+        "r": 1.03
+      },
+      {
+        "w": 32,
+        "h": 41,
+        "r": 1.28
+      },
+      {
+        "w": 27,
+        "h": 42,
+        "r": 1.56
+      },
+      {
+        "w": 41,
+        "h": 42,
+        "r": 1.02
+      }
+    ],
+    "barrelErr": [
+      1.5,
+      14.2,
+      34.8,
+      62.7,
+      131.8,
+      -61.6,
+      -33.1,
+      -11.7
+    ],
+    "bodyAspect": [
+      {
+        "w": 38,
+        "h": 40,
+        "r": 1.05
+      },
+      {
+        "w": 32,
+        "h": 42,
+        "r": 1.31
+      },
+      {
+        "w": 17,
+        "h": 42,
+        "r": 2.47
+      },
+      {
+        "w": 32,
+        "h": 42,
+        "r": 1.31
+      },
+      {
+        "w": 38,
+        "h": 39,
+        "r": 1.03
+      },
+      {
+        "w": 32,
+        "h": 41,
+        "r": 1.28
+      },
+      {
+        "w": 17,
+        "h": 42,
+        "r": 2.47
+      },
+      {
+        "w": 32,
+        "h": 42,
+        "r": 1.31
+      }
+    ],
+    "legs": {
+      "S": {
+        "strideL": 6,
+        "strideR": 6,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          50,
+          36,
+          26,
+          18,
+          24,
+          51,
+          65,
+          62
+        ],
+        "visR": [
+          24,
+          51,
+          65,
+          62,
+          50,
+          36,
+          26,
+          18
+        ]
+      },
+      "N": {
+        "strideL": 4.5,
+        "strideR": 4.5,
+        "visFramesL": 8,
+        "visFramesR": 8,
+        "visL": [
+          49,
+          60,
+          60,
+          59,
+          53,
+          48,
+          23,
+          36
+        ],
+        "visR": [
+          53,
+          48,
+          23,
+          36,
+          49,
+          60,
+          60,
+          59
+        ]
+      }
+    }
+  },
+  "pitch": 0.7,
+  "lightAng": -0.9,
+  "look": "bright",
+  "modelHeight": 46.7,
+  "rosterVersion": 1,
+  "bakedBy": "tools/bake.js",
+  "gate": {
+    "limits": {},
+    "pass": true,
+    "fails": []
+  }
+}
